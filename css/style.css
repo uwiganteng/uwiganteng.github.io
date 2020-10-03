@@ -1,0 +1,107 @@
+@font-face {
+    font-family: 'Monserat';
+    src: url('../fonts/montserrat-regular-webfont.woff') format('woff');
+}
+
+body {
+    font-family: 'Monserat', Arial, Helvetica, sans-serif;
+    height: 2000px;
+}
+
+.navbar {
+    background-color: #FA0596;
+    border-bottom: 1px solid #FA05C0;
+  }
+
+
+.nav-item {
+    margin-right: 24px;
+    font-weight: 200;
+}
+
+.nav-link {
+    font-weight: 200;
+}
+.nav-link:hover {
+    color: white;
+}
+
+.show {
+    margin-top: 70px;
+    background-color: #F7EDFF;
+    
+}
+
+.show h3 {
+    padding: 20px;
+}
+section {
+    min-height: 420px;
+}
+
+
+.figure {
+    cursor: pointer;
+}
+
+
+
+.gallery {
+    margin-top: 30px;
+}
+
+
+
+.show h4, .gallery h4,  .kontak h4{
+    font-size: 40px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+
+
+.show h4 {
+    padding: 20px;
+}
+
+
+.icon span i{
+    width: 70px;
+    color: #34eb9b;
+}
+
+
+.icon span p {
+    display: inline;
+    position: relative;
+    margin-left: -50px;
+    padding: 15px;
+}
+
+
+
+.form-group #nama {
+
+    background-color: #f3f3f3;
+    width: 100%;
+    border-radius: 30px;
+}
+
+
+.kontak {
+    min-height: auto;
+    max-width: 100%;
+}
+
+footer {
+        background-color: #FA0596;
+        min-height: 50px;
+        padding-top:12px;
+
+}
+
+
+
+footer a {
+    color: #34eb9b;
+}

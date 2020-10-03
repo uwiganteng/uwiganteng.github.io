@@ -1,0 +1,69 @@
+@font-face {
+    font-family: 'Monserat';
+    src: url('../fonts/montserrat-regular-webfont.woff') format('woff');
+}
+
+body {
+    font-family: 'Monserat', Arial, Helvetica, sans-serif;
+    height: 500px;
+}
+
+
+
+
+.navbar {
+    background-color: #FA0596;
+    border-bottom: 1px solid #FA05C0;
+  }
+
+
+.nav-item {
+    margin-right: 24px;
+    font-weight: 200;
+}
+
+.nav-link {
+    font-weight: 200;
+}
+.nav-link:hover {
+    color: white;
+}
+
+
+
+
+
+
+
+.show {
+    margin-top: 50px;
+    background-color: #F7EDFF;
+    margin-bottom: -20px;
+}
+
+
+
+.gallery {
+    margin: 20px;
+    padding: 60px;
+}
+
+
+.kontak {
+    margin: 20px;
+    padding: 60px;
+}
+
+
+footer {
+    background-color: #FA0596;
+    min-height: 50px;
+    padding-top:12px;
+
+}
+
+
+
+footer a {
+color: #34eb9b;
+}
